@@ -1,0 +1,222 @@
+.heading-title {
+    /* font-family: "jost"; */
+    width: 600px;
+    font-weight: 600px;
+    font-size: 22px;
+    line-height: 38.4px;
+    letter-spacing: 0.46px;
+}
+
+.logo-box {
+    /* style={{ padding: 10, marginBottom: 90, paddingLeft: 20 }} */
+    padding: 10px;
+    margin-bottom: 90px;
+    padding-left: 20px;
+}
+
+.link-box {
+    /* style={{ padding: 10, marginTop: 20, marginBottom: 20, paddingLeft: 90 }} */
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 90px;
+}
+
+.info-boxs {
+    /* style={{ padding: 10, marginTop: 0, marginBottom: 138, paddingLeft: 20 }}  */
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
+
+.join-box {
+    /* padding: 10, marginBottom: 40, paddingLeft: 20  */
+    padding: 10px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.footer-link p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 167% */
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.footer-link h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 64px;
+    /* identical to box height, or 267% */
+
+    /* letter-spacing: 0.3px; */
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+@media only screen and (max-width: 899px) and (min-width:600px) {
+    .logo-box {
+        /* style={{ padding: 10, marginBottom: 90, paddingLeft: 20 }} */
+        padding: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .link-box {
+        /* style={{ padding: 10, marginTop: 20, marginBottom: 20, paddingLeft: 90 }} */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .info-boxs {
+        /* style={{ padding: 10, marginTop: 0, marginBottom: 138, paddingLeft: 20 }}  */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .join-box {
+        /* padding: 10, marginBottom: 40, paddingLeft: 20  */
+        padding: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-link p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        /* identical to box height, or 169% */
+
+
+        /* align-items: center; */
+
+        /* White */
+
+        color: #FFFFFF;
+    }
+
+    .heading-title {
+        /* font-family: "jost"; */
+        width: auto;
+        font-weight: 600px;
+        font-size: 48px;
+        line-height: 74.4px;
+        letter-spacing: 0.46px;
+    }
+}
+
+@media only screen and (max-width: 599px) and (min-width:500px) {
+    .logo-box {
+        /* style={{ padding: 10, marginBottom: 90, paddingLeft: 20 }} */
+        padding: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+
+    .info-boxs {
+        /* style={{ padding: 10, marginTop: 0, marginBottom: 138, paddingLeft: 20 }}  */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+
+    .heading-title {
+        width: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: 0.301582px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) and (min-width:400px) {
+    .logo-box {
+        /* style={{ padding: 10, marginBottom: 90, paddingLeft: 20 }} */
+        padding: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .link-box {
+        /* style={{ padding: 10, marginTop: 20, marginBottom: 20, paddingLeft: 90 }} */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .info-boxs {
+        /* style={{ padding: 10, marginTop: 0, marginBottom: 138, paddingLeft: 20 }}  */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+
+    .heading-title {
+        width: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.301582px;
+    }
+
+}
+
+@media only screen and (max-width: 399px) and (min-width:260px) {
+    .logo-box {
+        /* style={{ padding: 10, marginBottom: 90, paddingLeft: 20 }} */
+        padding: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .link-box {
+        /* style={{ padding: 10, marginTop: 20, marginBottom: 20, paddingLeft: 90 }} */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .info-boxs {
+        /* style={{ padding: 10, marginTop: 0, marginBottom: 138, paddingLeft: 20 }}  */
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .heading-title {
+        width: auto;
+        font-size: 20px;
+        line-height: 31.4px;
+    }
+}

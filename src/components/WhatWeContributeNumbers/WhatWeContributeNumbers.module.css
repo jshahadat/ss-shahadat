@@ -1,0 +1,42 @@
+.WhatWeContributeNumbersWrapper{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+}
+
+.WhatWeContributeNumbers{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7em;
+    border-top-right-radius: 20px;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.WWCNInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    color: #4ab421;
+    line-height: 10px;
+    margin-right: 0.5em;
+}
+.WWCNInner h6{
+    margin-top: 0.3em;
+    font-size: 10px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+.WWCNInner p{
+    transition: 0.3s ease-in-out;
+    font-size: 12px;
+    font-weight: bolder!important;
+}

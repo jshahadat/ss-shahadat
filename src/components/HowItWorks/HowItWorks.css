@@ -1,0 +1,118 @@
+.HowItWorkbox {
+    height: 489.5672912597656px;
+    width: 340.6538391113281px;
+    background: #fff;
+    margin: 0 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 195.827px 195.827px 43.5171px 43.5171px;
+}
+
+/* .rectangleimages { */
+/* background: url("../../assets/images/howWorks/Ornament.png"); */
+/* } */
+.works-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.works-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #969696;
+}
+
+.projectcard-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height, or 136% */
+
+    text-align: center;
+    letter-spacing: 0.407973px;
+
+    color: #4AB421;
+}
+
+.projectcard-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+    text-align: center;
+
+    color: #969696;
+}
+
+@media screen and (max-width: 600px) {
+    .HowItWorkbox {
+        height: 361.8988037109375px;
+        width: 289.5190734863281px;
+        left: 0px;
+        top: 0px;
+        border-radius: [object Object]px;
+
+        background: #fff;
+        margin: 0 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 195.827px 195.827px 43.5171px 43.5171px;
+    }
+
+
+    .projectcard-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        /* line-height: 24px; */
+        /* identical to box height, or 151% */
+
+        text-align: center;
+        letter-spacing: 0.301582px;
+
+        color: #4AB421;
+    }
+
+    .projectcard-info {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .works-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 64px;
+    }
+
+    .works-info {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #969696;
+    }
+}

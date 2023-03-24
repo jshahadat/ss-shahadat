@@ -1,0 +1,252 @@
+.RecentBlogTop h2 span {
+    color: #77c54e;
+}
+
+
+
+.BlogSecondBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+}
+
+.RecentBlogBox {
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 1rem; */
+    width: 30rem;
+    height: 24rem;
+}
+
+.RecentBlogBox button {
+    font-family: Tahoma;
+    font-size: 20px;
+    background: #77c54e;
+    border-radius: 6px;
+}
+
+.recentblog-box {
+    position: relative;
+}
+
+.inner-box {
+    width: 27rem;
+    height: 23rem;
+}
+
+.recent-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 74px;
+    /* identical to box height, or 155% */
+
+    letter-spacing: 0.464972px;
+
+    /* Headings */
+
+    color: #2e2e2e;
+}
+
+.recent-para {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+
+    text-align: center;
+
+    color: #969696;
+}
+
+.card-possition {
+    position: relative;
+    right: 85px;
+    top: 76px;
+    display: flex;
+    flex-direction: row;
+    width: 39vw;
+}
+
+.text-blog {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+
+    color: #969696;
+}
+
+.text-blogTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* or 123% */
+
+    display: flex;
+    align-items: center;
+
+    /* Headings */
+
+    color: #2E2E2E;
+}
+
+@media only screen and (max-width: 1000px) {}
+
+
+@media screen and (max-width: 992px) {
+    .card-possition {
+        position: relative;
+        /* right: 85px; */
+        top: -89px;
+        display: flex;
+        flex-direction: row;
+        width: 73vw;
+        left: 5px;
+    }
+}
+
+
+
+@media only screen and (max-width: 660px) {
+
+    .text-blogTitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 17px;
+        /* or 123% */
+
+        display: flex;
+        align-items: center;
+
+        /* Headings */
+
+        color: #2E2E2E;
+    }
+
+    .text-blog {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        /* or 169% */
+
+        color: #969696;
+    }
+
+    .card-possition {
+        /* position: inherit;
+        display: flex;
+        flex-direction: row;
+        width: 93vw; */
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 93vw;
+        bottom: 0px;
+        left: 0px;
+        top: -77px;
+
+    }
+
+    .recent-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 20px;
+        color: #2e2e2e;
+    }
+
+    .recent-para {
+        font-weight: 400;
+        font-size: 14px;
+        /* line-height: 20px; */
+        /* or 143% */
+
+        text-align: center;
+
+        color: #969696;
+    }
+
+    /* .BlogSecondColBox {
+        flex-direction: column;
+    }
+
+    .RecentBlogBox {
+        display: flex;
+        background: #ffffff;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 44px;
+
+        background: #ffffff;
+        border-radius: 10px;
+        width: 300px;
+        height: 308px;
+        
+        border-radius: 10px;
+    } */
+}
+
+@media (max-width: 1288px) {
+    .wrap {
+        /* flex-direction: column;
+        justify-content: center; */
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1288px) and (min-width: 700px) {
+    .wrap2 {
+        /* flex-direction: column;
+        justify-content: center; */
+        flex-wrap: wrap;
+    }
+
+    .inner-box {
+        width: 80rem;
+        /* height: 20rem; */
+    }
+}
+
+@media (max-width: 670px) {
+    .wrap2 {
+        /* flex-direction: column;
+        justify-content: center; */
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 150% !important;
+    }
+
+    .inner-box {
+        width: 80rem;
+        height: 25rem;
+    }
+
+    .inner-box h4 {
+        font-size: 1rem;
+    }
+
+    .inner-box p {
+        font-size: .6rem;
+    }
+}

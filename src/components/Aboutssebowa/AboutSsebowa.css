@@ -1,0 +1,223 @@
+.aboutssebowa-main {
+    background: #011627;
+    border-radius: 33.1789px;
+
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
+}
+
+.circle-box {
+    margin-top: 0;
+}
+
+.imgdoubleborder {
+    /* padding: 1rem; */
+    mix-blend-mode: normal;
+    width: 304px;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    border-radius: 50%;
+    border: 2.07368px solid #419a1f;
+}
+
+.aboutssebowaimg {
+    border-radius: 50%;
+    width: 199px;
+    height: 199px;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2.07368px solid #419a1f;
+}
+
+/* 
+.aboutssebowaDesc {
+    font-style: normal;
+    font-family: "Poppins";
+}
+*/
+.aboutssebowaDesc h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 75px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+    letter-spacing: 0.414737px;
+
+    color: #FFFFFF;
+}
+
+.aboutssebowaDesc p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: 0.311052px;
+
+    color: #FFFFFF;
+
+}
+
+/*  
+.aboutssebowaDesc img {
+    margin: 2px;
+} */
+
+@media only screen and (max-width: 500px) {
+    .aboutssebowa-main {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+        flex-direction: column;
+    }
+
+    .aboutssebowaDesc {
+        text-align: center;
+    }
+
+
+
+    .aboutssebowaDesc h3 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 38px;
+        /* or 190% */
+
+        text-align: center;
+        letter-spacing: 0.211623px;
+
+        color: #FFFFFF;
+
+    }
+
+
+    .aboutssebowaDesc p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+        letter-spacing: 0.158717px;
+
+        color: #FFFFFF;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .imgdoubleborder {
+        /* padding: 1rem; */
+        mix-blend-mode: normal;
+        width: 304px;
+        height: 304px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.5;
+        border-radius: 50%;
+        border: 2.07368px solid #419a1f;
+        /* margin-left: 10px; */
+    }
+
+    .aboutssebowaDesc h3 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 38px;
+        /* or 190% */
+
+        text-align: center;
+        letter-spacing: 0.211623px;
+
+        color: #FFFFFF;
+
+    }
+
+    .aboutssebowaDesc p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+        letter-spacing: 0.158717px;
+
+        color: #FFFFFF;
+
+    }
+
+    .aboutssebowa-main {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+        flex-direction: column;
+    }
+
+    .aboutssebowaDesc {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .aboutssebowaDesc h3 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 38px;
+        /* or 190% */
+
+        text-align: center;
+        letter-spacing: 0.211623px;
+
+        color: #FFFFFF;
+
+    }
+
+    .aboutssebowa-main {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+        flex-direction: column;
+    }
+
+    .aboutssebowaDesc {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .aboutssebowa-main {
+        clip-path: polygon(0 0, 100% 18%, 100% 100%, 0% 100%);
+        border-radius: 16px;
+
+        flex-direction: column;
+    }
+
+    .circle-box {
+        margin-top: 80px;
+    }
+
+    .aboutssebowaDesc {
+        text-align: center;
+    }
+}

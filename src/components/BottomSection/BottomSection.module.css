@@ -1,0 +1,94 @@
+.BottomSection{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3em;
+}
+.BottomSectionBtnDiv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.BottomSectionBtnAddToChrome{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:15px;
+color: #fff;
+font-weight: bold;
+width: 50%;
+max-width: 250px;
+background-color: #4ab421;
+padding:0em 0.5em ;
+border-radius: 100px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-weight: bold;
+}
+.BottomSectionBtnAddBookmark{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:15px;
+color: #000000;
+font-weight: bold;
+width: 50%;
+}
+.BottomSectionBtnAddToChromeNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:12px;
+    color: #fff;
+    font-weight: bold;
+    max-width: 180px;
+    width: 30%;
+    margin: 0 1em;
+    background-color: #4ab421;
+    padding:0em 0.2em ;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: bold;
+}
+.BookmarkMainSection{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px) {
+    .BottomSectionBtnAddToChromeNavBar{
+        width: auto;
+        max-width: 50px;
+    }
+    .BottomSectionBtnAddToChromeNavBar span{
+        display: none;
+    }
+}
+    @media screen and (max-width:600px) {
+    .BottomSectionBtnAddToChrome{
+        font-size:12px;
+        background-color: #4ab421;
+        padding:0.2em 0.5em ;
+        width: 40%;
+        }
+        .BottomSectionBtnAddToChromeNavBar{
+            display: none;
+        }
+}
+@media screen and (max-width:430px) {
+    .BottomSectionBtnDiv{
+        flex-direction: column;
+    }
+    .BottomSectionBtnAddToChrome{
+        font-size:15px;
+        background-color: #4ab421;
+        padding:0.2em 1em ;
+        width: 100%;
+        margin-bottom: 1em;
+        }
+}
